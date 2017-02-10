@@ -22,10 +22,13 @@ package main
 //chaincode_example05 show's how chaincode ID can be passed in as a parameter instead of
 //hard-coding.
 
+
+// added  commect here 
+
 import (
 	"errors"
 	"fmt"
-	"strconv"
+	"strconv"  
 
 	"github.com/hyperledger/fabric/core/chaincode/shim"
 )
